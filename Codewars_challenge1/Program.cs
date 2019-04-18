@@ -35,7 +35,7 @@ namespace Codewars_challenge1
 
             string upperNotJadenCased = NotJadenCased.ToUpper();//String converted to Upper Case
 
-            Console.WriteLine(upperNotJadenCased);
+            Console.WriteLine(upperNotJadenCased); 
             //CODE HAS BEEN MADE 
 
 
