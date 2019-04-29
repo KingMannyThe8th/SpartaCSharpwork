@@ -8,6 +8,7 @@ namespace lab_21_review
 {
     class Program
     {
+        //main METHOD
         static void Main(string[] args)
         {
             //REVIEW OF DAY 2
@@ -77,16 +78,17 @@ namespace lab_21_review
 
             var s01 = new System.Diagnostics.Stopwatch();
             s01.Start;
-            s01.Stop; 
+            s01.Stop;
 
 
 
 
 
+            Method01(); //NO INPUT, NO OUTPUT 
+            Method02(1);//PASS AN INTEGER IN TO KEEP IT CORRECT
+            Method03(5);
 
-
-
-
+            var outp
 
 
 
@@ -94,5 +96,14 @@ namespace lab_21_review
 
 
         }
+
+        //OTHER METHODS
+        static void Method01() { }
+
+        static void Method02(int x) { }
+        
+        static int Method03(int x) { return x * x; }
+
+
     }
 }

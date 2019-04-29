@@ -15,7 +15,7 @@ namespace mini_lab_01
             Console.WriteLine("Loop from 1 to 1 thousand:");
 
             for (int i = 1; i < 1001; i++)//for 1st digit to be '1', 'i' initialized at 1, 
-                                             //if less than 1000001, incrememnt by 1
+                                             //if less than 1001, increment by 1
             {
 
 
