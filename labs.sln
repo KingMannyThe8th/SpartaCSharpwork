@@ -157,6 +157,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_lab3_27_4_19", "ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_lab4_27_4_19", "homework_lab4_27_4_19\homework_lab4_27_4_19.csproj", "{3894B96E-DF92-42DE-8A88-9D4FAA89B866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_lab06_27_4_19", "homework_lab06_27_4_19\homework_lab06_27_4_19.csproj", "{65C60461-00C7-4B84-9AC2-260103CF44F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIC_TAC_TOE_GAME", "TIC_TAC_TOE_GAME\TIC_TAC_TOE_GAME.csproj", "{60FA1D62-CF4C-4224-8CC5-242716AA7326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -471,6 +475,14 @@ Global
 		{3894B96E-DF92-42DE-8A88-9D4FAA89B866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3894B96E-DF92-42DE-8A88-9D4FAA89B866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3894B96E-DF92-42DE-8A88-9D4FAA89B866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C60461-00C7-4B84-9AC2-260103CF44F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C60461-00C7-4B84-9AC2-260103CF44F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C60461-00C7-4B84-9AC2-260103CF44F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C60461-00C7-4B84-9AC2-260103CF44F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FA1D62-CF4C-4224-8CC5-242716AA7326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FA1D62-CF4C-4224-8CC5-242716AA7326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FA1D62-CF4C-4224-8CC5-242716AA7326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FA1D62-CF4C-4224-8CC5-242716AA7326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
