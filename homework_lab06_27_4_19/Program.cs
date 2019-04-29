@@ -19,10 +19,25 @@ namespace homework_lab06_27_4_19
             array01[4] = "Adios";
 
 
-            string[] array02 = array01;
+            
+
+
 
 
             foreach (string value in array01)
+            {
+                Console.WriteLine(value); //shows code BEFORE change of 3rd value
+
+
+
+            }
+
+            
+            string[] array02 = array01;//directly copies the 1st array into the 2nd array
+
+            array01[2] = "Wilkommen"; //individual change of one variable 
+
+            foreach (string value in array01) //shows array AFTER change in value
             {
                 Console.WriteLine(value);
 
@@ -30,11 +45,12 @@ namespace homework_lab06_27_4_19
 
             }
 
-            foreach(string value2 in array02)
+            foreach (string value2 in array02) //shows copied array after change in Value 
             {
                 Console.WriteLine(value2);
+
+
             }
-            
         }
     }
 

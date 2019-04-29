@@ -24,5 +24,10 @@ namespace TIC_TAC_TOE_GAME
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
