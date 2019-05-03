@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using lab_42_test_me;
-using lab102_homework; 
+using lab102_homework;
 
 namespace Unit_Test_1
 {
@@ -20,7 +20,7 @@ namespace Unit_Test_1
 
 
             //assert 
-            Assert.AreEqual(expected, actual);      
+            Assert.AreEqual(expected, actual);
 
         }
 
@@ -39,25 +39,27 @@ namespace Unit_Test_1
             //assert 
             Assert.AreEqual(expected2, actual2);
         }
-            
-            [TestCase (1,2,3,4,5, -11)]
-            public void Lab_102_Collections_Test01(int a, int b, int c, int d, int e, int expected)
-            {
-                //arrange
+
+       // [TestClass(1, 2, 3, 5, -11)]
+        public void Lab_102_Collections_Test01(int a, int b, int c, int d, int e, int expected)
+        {
+            //arrange
 
 
-                //act
-                var actual = Collections.UseCollections(a, b, c, d, e);
+            //act
+            var actual = Collections.UseCollections(a, b, c, d, e);
 
-                //assert 
-                Assert.AreEqual(expected, actual); 
+            //assert 
+            Assert.AreEqual(expected, actual);
 
-            }
+        }
 
-          
-         
-    
-  
+
+
+
+
+
+    }
 
 }
 

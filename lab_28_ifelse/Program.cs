@@ -19,7 +19,7 @@ namespace lab_28_ifelse
             //ternary shorthand version of if..else
             //IF (CONDITION) ? IF TRUE : :IF FALSE;
            var output = (x == 100) ? "true" : "false";
-            Console.WriteLine(Output); 
+            //Console.WriteLine(Output); 
 
         }
     }

@@ -11,7 +11,7 @@ namespace lab_35_constructors
         static void Main(string[] args)
         {
             var p = new Parent("fred", 32);
-            varp2 = new Parent(); 
+            var p2 = new Parent(); 
 
         }
     }
@@ -37,7 +37,7 @@ namespace lab_35_constructors
         }
 
 
-   }
+   
 
    class Child : Parent { }
 

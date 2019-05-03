@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\lab_103_hw_Clases\lab_103_hw_Clases.csproj" />
+    <ProjectReference Include="..\lab_104_ hw_stopwatch\lab_104_ hw_stopwatch.csproj" />
+    <ProjectReference Include="..\lab_105_hw_polymorphism\lab_105_hw_polymorphism.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -26,4 +26,4 @@ namespace lab_22_classes
 
     }
 }
-   class 
+   

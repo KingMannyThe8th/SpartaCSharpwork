@@ -42,7 +42,7 @@ namespace lab_50_exceptions
                 Console.WriteLine(e);
                 Console.WriteLine(e.Data);
                 Console.WriteLine(e.Message);
-                File.WriteAllText; 
+                //File.WriteAllText; 
 
             }
 

@@ -50,7 +50,7 @@ namespace lab_21_review
             int? num1 = null;
             int num2 = 0;
 
-            byte = 255; //highest
+            byte b = 255; //highest
             byte bb = 0;//lowest
             byte bbb = 0b10101010;
 
@@ -72,13 +72,13 @@ namespace lab_21_review
                                                            //equation = 9 - no.
 
             //wpf form
-            var d01 = new DateTime();
-            var d01 = new DateTime.now();
-            var d01 = new DateTime.Today();
+            //ar d01 = new DateTime();
+               // d01 = new DateTime.now();
+               // d01 = new DateTime.Today();
 
             var s01 = new System.Diagnostics.Stopwatch();
-            s01.Start;
-            s01.Stop;
+            //s01.Start;
+            //s01.Stop;
 
 
 
@@ -88,7 +88,7 @@ namespace lab_21_review
             Method02(1);//PASS AN INTEGER IN TO KEEP IT CORRECT
             Method03(5);
 
-            var outp
+            
 
 
 

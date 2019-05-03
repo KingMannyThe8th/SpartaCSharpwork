@@ -29,9 +29,9 @@ namespace lab_43_entity
                     Console.WriteLine($"ID is {c.CustomerID}, name is {c.ContactName}");
                 }
 
-                customerToUpdate = db.Customers.Where(cust => cust.CustomerID == "Phill");
+                //customerToUpdate = db.Customers.Where(cust => cust.CustomerID == "Phill");
 
-                customerToUpdate.City = "PhilsCity";
+                //customerToUpdate.City = "PhilsCity";
 
                 db.SaveChanges();
 
@@ -39,7 +39,8 @@ namespace lab_43_entity
                 {
                     //contact database
                 }
-                catch {//any errors }
+                catch {//any errors 
+                   }
 
             finally {//close database 
                 }
@@ -50,7 +51,7 @@ namespace lab_43_entity
                 findOneCustomer =
                  (from cust in db.Customers
                   where cust.CustomerID == "Phil1"
-                  select cust).FirstorDefault();
+                  select cust).FirstOrDefault();
                 Console.WriteLine($"\n\nUpdated customer has new city = {findOneCustomer.City}");
             }
         }

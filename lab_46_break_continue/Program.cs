@@ -12,7 +12,7 @@ namespace lab_47_break_continue
         {
             for (int i = 0; i < 10; i++)
             {
-                if(i ==5 >|| i = 6)
+                if (true)
                 {
                     continue;
                 }
@@ -30,7 +30,7 @@ namespace lab_47_break_continue
                 }
 
                 Console.WriteLine (counter);
-                counter++''
+                counter++;
             }
 
         }

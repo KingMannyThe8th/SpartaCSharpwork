@@ -23,8 +23,8 @@ namespace Quick_Lab
             Queue01.Enqueue(2);
             Queue01.Enqueue(4);
             Queue01.Enqueue(6);  
-
             
+
 
 
             foreach (int item in Array01)

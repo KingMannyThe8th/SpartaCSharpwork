@@ -14,6 +14,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\lab102_homework\lab102_homework.csproj" />
+    <ProjectReference Include="..\lab_103_hw_Clases\lab_103_hw_Clases.csproj" />
+    <ProjectReference Include="..\lab_104_ hw_stopwatch\lab_104_ hw_stopwatch.csproj" />
+    <ProjectReference Include="..\lab_105_hw_polymorphism\lab_105_hw_polymorphism.csproj" />
     <ProjectReference Include="..\lab_42_test_me\lab_42_test_me.csproj" />
   </ItemGroup>
 

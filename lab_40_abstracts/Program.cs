@@ -11,7 +11,7 @@ namespace lab_40_abstracts
         static void Main(string[] args)
         {
             //var h = new Holiday(); 
-             var h = LetsGo(); 
+             //var h = LetsGo(); 
         }
     }
 }  abstract class Holiday

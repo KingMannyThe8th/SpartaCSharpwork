@@ -67,8 +67,8 @@ namespace lab_102_methods
 
     public String toString()
     {
-        return ($"My name is" + {this.getName()} + "I am aged\t" + {this.getAge()} + ",\t" + {this.getNationality()} +
-                 "\t,live in\t" + {this.getCity()} + "\tand attend\t" + { this.getUniversity()});
+        return ($"My name is" + this.getName() + "I am aged\t" + this.getAge() + ",\t" + this.getNationality() +
+                 "\t,live in\t" + this.getCity() + "\tand attend\t" +  this.getUniversity());
     }
 
 }

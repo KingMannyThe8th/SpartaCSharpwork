@@ -16,7 +16,7 @@ namespace lab_41_constructor
 
             //DEFAULT ONE DOES NOT WORK ANYMORE
 
-            va
+            
 
         }
 
@@ -68,6 +68,7 @@ namespace lab_41_constructor
             
             
             
-            }
+            
     }
 }
+

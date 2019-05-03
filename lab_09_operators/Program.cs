@@ -40,7 +40,7 @@ namespace lab_09_operators
             bool isExcellent = true;
             bool isRubbish = false;
 
-            Console.WriteLine("isExcellent")##;  //TRUE
+            Console.WriteLine("isExcellent");  //TRUE
             Console.WriteLine("!isExcellent"); //FALSE
         }
     }

@@ -33,7 +33,7 @@ namespace lab102_homework
             Numbers.Add(d);
             Numbers.Add(e);
 
-            Console.WriteLine("Numbers.Count);
+            Console.WriteLine("Numbers.Count");
 
             //foreach(var value in Numbers)
             //{
@@ -101,7 +101,7 @@ namespace lab102_homework
            
         }
 
-        return -1
+       
 
     }
 

@@ -8,6 +8,8 @@ namespace bodmas
 {
     class Program
     {
+        private static int x;
+
         static void Main(string[] args)
         {// 
          //BODMAS/BIDMAS
@@ -19,7 +21,7 @@ namespace bodmas
          //If you drive somewhere with a certain speed and it takes you 1,5 hour to reach your destination, 
          //how long will it take if you increase your speed by 15 %? 75 %?
 
-            var x; //  
+            //var x; //  
 
             Console.WriteLine("Insert number:", x);
             Console.ReadLine();

@@ -34,4 +34,8 @@ namespace polymorphism_practice
 
         }
     }
+
+    internal class BaseMacdeesMenu2
+    {
+    }
 }

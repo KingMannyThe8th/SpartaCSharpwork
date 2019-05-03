@@ -12,13 +12,13 @@ namespace lab_34_OptionalParameters
         {
             DoThis(10, "hi", true);
             DoThis(10, "hi");
-            DoThis(1,2,3,4);
+            
             
 
             DoThat(d: 7, c: 6, a: 10);
         }
 
-        void DoThis(int x, string y, bool z = false)
+         static void DoThis(int x, string y, bool z = false)
         {
 
 
