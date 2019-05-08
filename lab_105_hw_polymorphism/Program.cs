@@ -10,13 +10,17 @@ namespace lab_105_hw_polymorphism
     {
         static void Main(string[] args)
         {
+            var p = new Parent();
+            p.OutputText();
+            var c = new Child();
+            c.OutputText(); 
         }
     }
 
     
     public class Parent
     {
-        virtual public string OutputText()
+        public virtual string OutputText()
         {
             return "We support Arsenal in this house";
         }
