@@ -25,7 +25,7 @@ namespace lab_29_collections
 
             
             list01.ForEach(item => Console.WriteLine(item));//Shorthand 'lambda' or 'arrow' syntax for a loop
-            DoThis();
+            //DoThis();
             stack01.Push(10); //BOTTOM
             stack01.Push(20); //MIDDLE
             stack01.Push(30); //TOP
@@ -47,16 +47,16 @@ namespace lab_29_collections
             
         }
 
-        static void DoThis()
-        {
-            int x = 20;
-            int y = 10;
-            DoThat();
+    //    static void DoThis()
+      //  {
+        //    int x = 20;
+        //    int y = 10;
+        //    DoThat();
 
-        }
-        static void DoThat()
-        {
-            int z = 30;
-        }
+   //     }
+     // //  static void DoThat()
+        //{
+        //    int z = 30;
+        //}
     }
 }
